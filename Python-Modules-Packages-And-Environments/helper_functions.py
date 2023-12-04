@@ -15,7 +15,6 @@ def random_phrase(list1, list2):
   item2 = random.choice(list2)
   return str(item1) + ' ' + str(item2)
 
-#random_phrase(adjetives, nouns)
 
 def count_nulls(df):
     'return total count of null values in a data frame'
