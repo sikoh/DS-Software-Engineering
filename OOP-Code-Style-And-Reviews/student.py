@@ -36,9 +36,9 @@ def student_generator():
 
     students = []
     for i in range(30):
-        name = random.choice(names)
+        name = names[i]
         age = random.randint(18, 45)
-        major = random.choice(majors)
+        major = majors[i]
 
         student = BloomTechStudent(name, age, major)
         students.append(student)
