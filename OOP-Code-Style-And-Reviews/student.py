@@ -20,8 +20,19 @@ class BloomTechStudent(Student):
         print(f"{self.name} is attending a BloomTech event for {self.major} majors.")
 
 def student_generator():
-    names = ["Alice", "Bob", "Charlie", "David", "Emma", "Frank", "Grace", "Harry", "Ivy", "Jack"]
-    majors = ["Computer Science", "Engineering", "Business", "Biology", "Psychology", "Mathematics"]
+    names = [
+    "Emily", "Liam", "Olivia", "Noah", "Ava", "Ethan", "Sophia", "Jackson", 
+    "Emma", "Aiden", "Isabella", "Lucas", "Mia", "Oliver", "Harper", "Elijah", 
+    "Amelia", "Logan", "Abigail", "Caleb", "Grace", "Benjamin", "Charlotte", 
+    "Henry", "Lily", "Samuel", "Scarlett", "Mason", "Zoe", "Alexander"]
+    
+    majors = [
+    "Computer Science", "Biology", "Psychology", "Engineering", "Business Administration",
+    "Environmental Science", "Political Science", "Economics", "English Literature", "Mathematics",
+    "Chemistry", "Physics", "History", "Sociology", "Communications",
+    "Nursing", "Graphic Design", "Marketing", "Philosophy", "Education",
+    "Criminal Justice", "Art History", "Anthropology", "Geology", "International Relations",
+    "Music", "Film Studies", "Public Health", "Theater", "Astronomy"]
 
     students = []
     for i in range(30):
