@@ -1,5 +1,3 @@
-# Data Science Unit 3 Sprint Challenge 1
-
 ## Software Engineering - the Acme Way
 
 In this sprint challenge you will write code and answer questions related to
